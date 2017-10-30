@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프로필"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:textSize="18dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="친구목록"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:textSize="18dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btn_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채팅"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:textSize="18dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지도"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:textSize="18dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <fragment
+        android:name="com.example.hxperl.closefriends0_1v.FragmentA"
+        android:id="@+id/frg_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
